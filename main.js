@@ -1,15 +1,15 @@
 let characterArray = [];
 const charaImg = [
-    "/img/Luke-rotjpromo.webp",
-    "/img/c3po.jpeg",
-    "/img/R2d2.webp",
-    "/img/DarthVader.jpg",
-    "/img/Leia.webp",
-    "/img/Owen.webp",
-    "/img/Beru.webp",
-    "/img/R5d4.webp",
-    "/img/Biggs.webp",
-    "/img/ObiWanHS-SWE.webp"];
+    "js2/img/Luke-rotjpromo.webp",
+    "js2/img/c3po.jpeg",
+    "js2/img/R2d2.webp",
+    "js2/img/DarthVader.jpg",
+    "js2/img/Leia.webp",
+    "js2/img/Owen.webp",
+    "js2/img/Beru.webp",
+    "js2/img/R5d4.webp",
+    "js2/img/Biggs.webp",
+    "js2/img/ObiWanHS-SWE.webp"];
     let counter = 0;
     
     const main = document.querySelector("main")
