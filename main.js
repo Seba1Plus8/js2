@@ -129,29 +129,29 @@ function showCharacters() {
             </section>
             <section id="middle">
             <div>
-            <input type="button" value="compare" id="compare">
+            <input type="button" value="Compare" id="compare">
             </div>
             <div class="info hide">
             <div class="row">
-            <p>${characterOne.gender}</p><p class="p_middle">:Gender:</p><p>${characterTwo.gender}</p>
+            <p>${characterOne.gender}</p><p class="p_middle">Gender</p><p>${characterTwo.gender}</p>
             </div>
             <div class="row">
-            <p>${characterOne.height}cm</p><p class="p_middle">:Height:</p><p>${characterTwo.height}cm</p>
+            <p>${characterOne.height}cm</p><p class="p_middle">Height</p><p>${characterTwo.height}cm</p>
             </div>
             <div class="row">
-            <p>${characterOne.mass}kg</p><p class="p_middle">:Weight:</p><p>${characterTwo.mass}kg</p>
+            <p>${characterOne.mass}kg</p><p class="p_middle">Weight</p><p>${characterTwo.mass}kg</p>
             </div>
             <div class="row">
-            <p>${characterOne.eyeColor}</p><p class="p_middle">:Eye color:</p><p>${characterTwo.eyeColor}</p>
+            <p>${characterOne.eyeColor}</p><p class="p_middle">Eye color</p><p>${characterTwo.eyeColor}</p>
             </div>
             <div class="row">
-            <p>${characterOne.hairColor}</p><p class="p_middle">:Hair color:</p><p>${characterTwo.hairColor}</p>
+            <p>${characterOne.hairColor}</p><p class="p_middle">Hair color</p><p>${characterTwo.hairColor}</p>
             </div>
             <div class="row">
-            <p>${characterOne.skinColor}</p><p class="p_middle">:Skin color:</p><p>${characterTwo.skinColor}</p>
+            <p>${characterOne.skinColor}</p><p class="p_middle">Skin color</p><p>${characterTwo.skinColor}</p>
             </div>
             <div class="row">
-            <p>${characterOne.movies.length}</p><p class="p_middle">:Appearances:</p><p>${characterTwo.movies.length}</p>
+            <p>${characterOne.movies.length}</p><p class="p_middle">Appearances</p><p>${characterTwo.movies.length}</p>
             </div>
             </div>
             </section>
@@ -211,7 +211,11 @@ function showCharacters() {
                     const p = document.querySelector(".row:nth-of-type(3)");
                     p.style.color = "gold";
                 }
-
+                
+                if (characterOne.eyeColor === characterTwo.eyeColor) {
+                    const p = document.querySelector(".row:nth-of-type(4)");
+                p.style.color = "gold";
+                }
                 if (characterOne.hairColor === characterTwo.hairColor) {
                     const p = document.querySelector(".row:nth-of-type(5)");
                 p.style.color = "gold";

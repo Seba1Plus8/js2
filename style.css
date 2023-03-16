@@ -12,6 +12,13 @@ form {
 margin: auto;
 width: max-content;
 }
+form * {
+    background: #100b0e;
+    color: #d5dee7;
+    border: #f1b329 solid 1px;
+    border-radius: 5px;
+}
+
 content {
     display: flex;
     flex-direction: row;
@@ -74,19 +81,3 @@ p{
 .loser{
     color: #9ba0a9;
 }
-.parent {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 2 / 1 / 9 / 3; }
-    .div2 { grid-area: 2 / 6 / 9 / 8; }
-    .div3 { grid-area: 2 / 3 / 9 / 4; }
-    .div4 { grid-area: 2 / 5 / 9 / 6; }
-    .div5 { grid-area: 1 / 5 / 2 / 8; }
-    .div6 { grid-area: 1 / 1 / 2 / 4; }
-    .div7 { grid-area: 1 / 4 / 2 / 5; }
-    .div8 { grid-area: 2 / 4 / 9 / 5; }
