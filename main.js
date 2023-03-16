@@ -1,7 +1,7 @@
 let characterArray = [];
 const charaImg = [
-    "js2/img/Luke-rotjpromo.webp",
-    "js2/img/c3po.jpeg",
+    "img/Luke-rotjpromo.webp",
+    "img/c3po.jpeg",
     "js2/img/R2d2.webp",
     "js2/img/DarthVader.jpg",
     "js2/img/Leia.webp",
